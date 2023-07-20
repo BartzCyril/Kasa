@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div a {
+    margin: 0 30px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF6060;
+}

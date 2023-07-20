@@ -1,0 +1,29 @@
+.error-container {
+    position: absolute;
+    top: calc(50% - (288px / 2));
+    left: 50%;
+    transform: translate(-50%);
+    color: #FF6060;
+    text-align: center;
+}
+
+.error-container div {
+    font-size: 288px;
+    font-weight: bold;
+}
+
+.error-container p {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.error-link {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FF6060;
+    text-decoration: underline;
+}
