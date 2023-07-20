@@ -1,13 +1,14 @@
 .error-container {
-    position: absolute;
-    top: calc(50% - (288px / 2));
-    left: 50%;
-    transform: translate(-50%);
+    height: calc(100vh - 209px - 50px - 71.5px);
     color: #FF6060;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.error-container div {
+.error-container div div{
     font-size: 288px;
     font-weight: bold;
 }
@@ -17,11 +18,7 @@
     font-weight: 500;
 }
 
-.error-link {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 50px;
+.error-container a {
     font-size: 18px;
     font-weight: 500;
     color: #FF6060;
