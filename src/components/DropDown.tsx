@@ -16,11 +16,10 @@ export function DropDown({title, content} : DropDownProps) {
     useEffect(() => {
         const div = ref.current as HTMLDivElement
         const p = div.childNodes[0] as HTMLParagraphElement
-        const windowWidth = window.innerWidth
-        let padding = 0
         if (open) {
-            windowWidth >= 768 ? padding = 40 : padding = 20
-            setHeight(div.getBoundingClientRect().height + p.getBoundingClientRect().height + padding)
+            setTimeout(() => {
+                setHeight(div.getBoundingClientRect().height + p.getBoundingClientRect().height + 10)
+            }, 1000)
         } else {
             setHeight(0)
         }
@@ -30,7 +29,7 @@ export function DropDown({title, content} : DropDownProps) {
         <div className="dropdown">
             <div>
                 <h3>{title}</h3>
-                {open ? <img src="./img/arrow-up.svg" alt="close the content" onClick={handleOnClick}/> : <img src="./img/arrow-down.svg" alt="open the content" onClick={handleOnClick}/>}
+                {open ? <img src="../img/arrow-up.svg" alt="close the content" onClick={handleOnClick}/> : <img src="../img/arrow-down.svg" alt="open the content" onClick={handleOnClick}/>}
             </div>
             <div className={open ? 'dropdown-open' : 'dropdown-close'} ref={ref} style={{ "--heightContentDropDown": `${height}px`} as CSSProperties}>
                 <p>{content}</p>

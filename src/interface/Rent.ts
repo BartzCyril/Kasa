@@ -3,7 +3,7 @@ interface Host {
     picture : string
 }
 
-export interface Rent {
+export interface RentInterface  {
     id : string,
     title : string,
     cover : string,
@@ -11,5 +11,6 @@ export interface Rent {
     description : string,
     host : Host,
     equipments : string[],
-    tags : string[]
+    tags : string[],
+    rating : string
 }

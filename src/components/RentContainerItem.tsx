@@ -1,8 +1,8 @@
-import {Rent} from "../interface/Rent";
+import {RentInterface} from "../interface/Rent";
 import {Link} from "react-router-dom";
 
 type RentContainerItemProps = {
-    rent : Rent
+    rent : RentInterface
 }
 
 export function RentContainerItem({rent} : RentContainerItemProps) {

@@ -2,21 +2,21 @@
     filter: brightness(0.7);
 }
 
-.section-rent {
+.section-rents {
     width: 100%;
     padding: 22.5px;
     background-color: #F6F6F6;
     border-radius: 25px 25px 0 0;
 }
 
-.section-rent div {
+.section-rents div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     border-radius: 10px;
 }
 
-.section-rent div a {
+.section-rents div a {
     height: 340px;
     width: 340px;
     position: relative;
@@ -24,7 +24,7 @@
     border-radius: 10px;
 }
 
-.section-rent div a::before {
+.section-rents div a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -35,14 +35,14 @@
     pointer-events: none;
 }
 
-.section-rent div a img {
+.section-rents div a img {
     border-radius: 10px;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.section-rent div a h3 {
+.section-rents div a h3 {
     position: absolute;
     bottom: 30px;
     left: 30px;
