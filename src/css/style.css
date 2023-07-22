@@ -141,6 +141,22 @@ footer p {
     .banner {
         justify-content: start;
     }
+    .about-us {
+        margin: 0;
+    }
+    .dropdown img {
+        width: 16px;
+        height: 9px;
+    }
+    .dropdown div:nth-of-type(1) h3 {
+        font-size: 13px;
+    }
+    .dropdown div:nth-of-type(2) p {
+        font-size: 12px;
+    }
+    .dropdown .dropdown-open {
+        padding: 25px 9px 50px 9px ;
+    }
     footer {
         margin-top: 20px;
     }

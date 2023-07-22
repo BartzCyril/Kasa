@@ -24,3 +24,18 @@
     color: #FF6060;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+    .error-container {
+        height: calc(100vh - 229px - 20px - 51px);
+    }
+    .error-container div div {
+        font-size: 96px;
+    }
+    .error-container p {
+        font-size: 18px;
+    }
+    .error-container a {
+        font-size: 14px;
+    }
+}
