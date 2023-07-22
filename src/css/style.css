@@ -119,6 +119,19 @@ footer p {
     .banner h2 {
         font-size: 32px;
     }
+    .dropdown img {
+        width: 21px;
+        height: 12px;
+    }
+    .dropdown div:nth-of-type(1) h3 {
+        font-size: 17px;
+    }
+    .dropdown div:nth-of-type(2) p {
+        font-size: 16px;
+    }
+    .dropdown .dropdown-open {
+        padding: 33px 12px 66px 12px ;
+    }
 }
 
 @media only screen and (max-width: 768px) {
