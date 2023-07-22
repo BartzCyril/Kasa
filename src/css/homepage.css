@@ -4,7 +4,7 @@
 
 .section-rents {
     width: 100%;
-    padding: 22.5px;
+    padding: 50px;
     background-color: #F6F6F6;
     border-radius: 25px 25px 0 0;
 }
@@ -18,7 +18,7 @@
 
 .section-rents div a {
     height: 340px;
-    width: 340px;
+    width: auto;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
@@ -50,4 +50,26 @@
     width: calc(50% + 30px);
     font-size: 18px;
     font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section-rents div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .section-rents div {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .section-rents {
+        padding: 0;
+        background-color: white;
+        border-radius: 0;
+    }
+    .section-rents div a {
+        height: 255px;
+    }
 }

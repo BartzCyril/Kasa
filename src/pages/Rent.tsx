@@ -1,5 +1,5 @@
 import data from '../../data/data.json'
-import {Navigate, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import {Carousel} from "../components/Carousel";
 import "../css/style.css"
 import "../css/rent.css"
@@ -38,6 +38,7 @@ export function Rent() {
                 </div>
                 <div className="section-rent-informations">
                     <DropDown title={"Description"} content={dataRent[0].description}/>
+                    <DropDown title={"Équipements"} content={dataRent[0].equipments}/>
                 </div>
             </section>
             <Footer/>

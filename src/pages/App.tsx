@@ -8,7 +8,7 @@ function App() {
     return (
         <>
             <Header/>
-            <Banner filter={true} picture={"banner"} title={"Chez vous, partout et ailleurs"}/>
+            <Banner filter={true} picture={"banner"} title={"Chez vous,\n partout et ailleurs"}/>
             <RentContainer data={data}/>
             <Footer/>
         </>
