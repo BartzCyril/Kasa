@@ -1,5 +1,3 @@
-import React from "react";
-
 type RentHostProps = {
     name : string,
     img : string
