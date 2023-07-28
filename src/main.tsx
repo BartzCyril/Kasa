@@ -10,16 +10,16 @@ import {AboutUs} from "./pages/AboutUs";
 
 const router = createBrowserRouter([
     {
-        path: 'https://bartzcyril.github.io/',
+        path: '/',
         element: <App />,
         errorElement: <ErrorPage />,
     },
     {
-        path: 'https://bartzcyril.github.io/aboutUs',
+        path: 'aboutUs',
         element: <AboutUs />,
     },
     {
-        path: 'https://bartzcyril.github.io/rent/:id',
+        path: 'rent/:id',
         element: <Rent />,
     },
 ])
