@@ -8,9 +8,9 @@ export function Grade({grade} : GradeProps) {
 
     for (let i=0 ; i < 5 ; i++) {
         if (i < grade)
-            stars.push(<img src="../img/star.svg" alt="star" key={`stars-${i}`}/>)
+            stars.push(<img src="/Kasa//img/star.svg" alt="star" key={`stars-${i}`}/>)
         else
-            stars.push(<img src="../img/empty-star.svg" alt="empty star" key={`stars-${i}`}/>)
+            stars.push(<img src="/Kasa//img/empty-star.svg" alt="empty star" key={`stars-${i}`}/>)
     }
 
     return (

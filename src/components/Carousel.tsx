@@ -23,9 +23,9 @@ export function Carousel({pictures} : CarouselProps) {
     if (pictures.length > 1) {
         return (
             <div className="carousel">
-                <img src="../img/arrow-left.svg" alt="move backward" onClick={() => handleClick("-")} className="carousel-move-backward"/>
+                <img src="/Kasa//img/arrow-left.svg" alt="move backward" onClick={() => handleClick("-")} className="carousel-move-backward"/>
                 <img src={`${pictures[index]}`} alt="Appartement pictures" className="carousel-img"/>
-                <img src="../img/arrow-right.svg" alt="move forward" onClick={() => handleClick("+")} className="carousel-move-forward"/>
+                <img src="/Kasa//img/arrow-right.svg" alt="move forward" onClick={() => handleClick("+")} className="carousel-move-forward"/>
                 {window.innerWidth > 768 ? <p>{`${index + 1}/${pictures.length}`}</p> : ''}
             </div>
         )

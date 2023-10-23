@@ -5,7 +5,7 @@ export function Header() {
     return (
         <header>
             <Link to="/Kasa/">
-                <img src="../../img/logo-red.svg" alt="logo kasa"/>
+                <img src="../img/logo-red.svg" alt="logo kasa"/>
             </Link>
             <div>
                 <Link to="/Kasa/" className={location.pathname === "/" ? 'active' : ''}>Accueil</Link>

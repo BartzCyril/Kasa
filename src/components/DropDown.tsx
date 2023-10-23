@@ -18,8 +18,8 @@ export function DropDown({title, content}: DropDownProps) {
         <div className="dropdown">
             <div>
                 <h3>{title}</h3>
-                {open ? <img src="../img/arrow-up.svg" alt="close the content" onClick={handleOnClick}/> :
-                    <img src="../img/arrow-down.svg" alt="open the content" onClick={handleOnClick}/>}
+                {open ? <img src="/Kasa//img/arrow-up.svg" alt="close the content" onClick={handleOnClick}/> :
+                    <img src="/Kasa//img/arrow-down.svg" alt="open the content" onClick={handleOnClick}/>}
             </div>
             <div className={open ? 'dropdown-open'  : 'dropdown-close'}>
                 {typeof content === "string" ? <p>{content}</p> : <p>{content.map((c, index) => <React.Fragment
