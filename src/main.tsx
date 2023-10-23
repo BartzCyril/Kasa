@@ -10,16 +10,16 @@ import {AboutUs} from "./pages/AboutUs";
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/Kasa/',
         element: <App />,
         errorElement: <ErrorPage />,
     },
     {
-        path: 'aboutUs',
+        path: '/Kasa/aboutUs',
         element: <AboutUs />,
     },
     {
-        path: 'rent/:id',
+        path: '/Kasa/rent/:id',
         element: <Rent />,
     },
 ])

@@ -4,12 +4,12 @@ export function Header() {
 
     return (
         <header>
-            <Link to="/">
+            <Link to="/Kasa/">
                 <img src="../img/logo-red.svg" alt="logo kasa"/>
             </Link>
             <div>
-                <Link to="/" className={location.pathname === "/" ? 'active' : ''}>Accueil</Link>
-                <Link to="/aboutUs" className={location.pathname === "/aboutUs" ? 'active' : ''}>A propos</Link>
+                <Link to="/Kasa/" className={location.pathname === "/" ? 'active' : ''}>Accueil</Link>
+                <Link to="/Kasa/aboutUs" className={location.pathname === "/aboutUs" ? 'active' : ''}>A propos</Link>
             </div>
         </header>
     )

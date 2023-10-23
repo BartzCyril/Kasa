@@ -7,7 +7,7 @@ type RentContainerItemProps = {
 
 export function RentContainerItem({rent} : RentContainerItemProps) {
     return (
-        <Link to={`/rent/${rent.id}`}>
+        <Link to={`/Kasa/rent/${rent.id}`}>
             <img src={rent.cover} alt="rent location"/>
             <h3>{rent.title}</h3>
         </Link>
