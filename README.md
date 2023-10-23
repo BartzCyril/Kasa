@@ -1,7 +1,5 @@
 # Kasa
 
-# Booki
-
 ## Sujet
 
 Le projet vise à moderniser le site Kasa, initialement codé en ASP.NET il y a plus de 10 ans. 
