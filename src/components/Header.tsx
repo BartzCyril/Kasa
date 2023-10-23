@@ -8,8 +8,8 @@ export function Header() {
                 <img src="/Kasa/img/logo-red.svg" alt="logo kasa"/>
             </Link>
             <div>
-                <Link to="/Kasa/" className={location.pathname === "/" ? 'active' : ''}>Accueil</Link>
-                <Link to="/Kasa/aboutUs" className={location.pathname === "/aboutUs" ? 'active' : ''}>A propos</Link>
+                <Link to="/Kasa/" className={location.pathname === "/Kasa/" ? 'active' : ''}>Accueil</Link>
+                <Link to="/Kasa/aboutUs" className={location.pathname === "/Kasa/aboutUs" ? 'active' : ''}>A propos</Link>
             </div>
         </header>
     )
