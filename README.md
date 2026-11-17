@@ -9,6 +9,8 @@
 
 **👉 Voir le site : [bartzcyril.github.io/Kasa](https://bartzcyril.github.io/Kasa/)**
 
+**🎨 Voir la maquette : [Maquette Figma](https://www.figma.com/file/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=P002zs9LzZBd3G8C-0)**
+
 ## Sujet
 
 Projet de formation OpenClassrooms. Kasa, acteur de la location d'appartements entre particuliers, migre son site codé en ASP.NET il y a plus de 10 ans vers une stack JavaScript. Mission : développer le front-end en React à partir des maquettes Figma, les données des logements étant fournies dans un fichier JSON.
@@ -37,11 +39,3 @@ npm install
 npm run dev       # http://localhost:5173/Kasa/
 npm run build
 ```
-
-## Site
-
-[Site Kasa](https://bartzcyril.github.io/Kasa/)
-
-## Maquette
-
-[Maquette Figma](https://www.figma.com/file/qEno0LwL4ZLkWyeY59kxp1/UI-Design-Kasa-FR?type=design&node-id=0-1&mode=design&t=P002zs9LzZBd3G8C-0)
